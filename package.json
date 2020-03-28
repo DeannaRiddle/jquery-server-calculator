@@ -1,0 +1,26 @@
+{
+  "name": "jquery-server-side-calculator-master-3",
+  "version": "1.0.0",
+  "description": "[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeannaRiddle/jquery-salary-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeannaRiddle/jquery-salary-calculator/issues"
+  },
+  "homepage": "https://github.com/DeannaRiddle/jquery-salary-calculator#readme"
+}
