@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="vendors/jquery.min.js" type="text/javascript"></script>
+    <script src="scripts/client.js" type="text/javascript"></script>
+
     <title>Server Side Calculator</title>
   </head>
   <body>
@@ -10,11 +13,23 @@
       <h1>Server Side Calculator</h1>
     </header>
     <div>
-      <input placeholder="number" type="number" class="js-input-firstNumber" />
-      <button class="js-btn-add-number">Add</button>
-      <button class="js-btn-subtract-number">Subtract</button>
-      <button class="js-btn-multiply-number">Multiply</button>
-      <button class="js-btn-divide-number">Divide</button>
+      Enter Number :
+      <input type="text" id="num1">
+      <button class=".js-btn-sign" id="add">+</button>
+      <button class=".js-btn-sign" id="sub">-</button>
+      <button class=".js-btn-sign"id="mul">*</button>
+      <button class=".js-btn-sign" id="div">/</button>
+      Enter Number : <input type="text" id="num2"> 
+      <button type="button" id="equal">=</button>
+      <button type="button" id="clear">C</button>
+      <br><br><br> Result is:
+      <p id="result"></p>
+  
+    </div>
+    <div class="js-equations-list"
+      <p>History: 
+        <span id = "History"> </span>
+      </p>
     </div>
   </body>
 </html>

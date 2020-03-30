@@ -1,9 +1,28 @@
 # Jquery Server Side Calculator
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+In this challenge, we had create a working calculator in the DOM.
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+The calculator will calculate and show the result of two variables that are given by the client.
+The calculator will also show the history of previous equations that were calculated.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+## Screen Shot
+
+Here is an example of what it should look like. https://photos.app.goo.gl/ykuD7hEWnHVf6uUWA
+
+## Installation
+
+Will need to fork and clone repository from github.com/DeannaRiddle/jquery-server-calculator.
+Will then access calculator on LocalHost:5000/equations
+Then you can use the calculator to find equation solutions.
+
+## Built With
+
+HTML
+JAVASCRIPT
+JQUERY
+NODE
+POSTMAN
+
+## License
